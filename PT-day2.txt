@@ -1,0 +1,46 @@
+(int/void) function_name(){}--> c/c++
+
+public/private/protected/default/static  return type method_name(){}--> java
+
+static stops going it to 
+
+
+heaps -- usage: max_heap :the max value is with root node so the time complexity is O(n)
+
+
+Q) n= 123 return 321:
+
+s=n/10
+rev=rev*10+3
+n=n/10
+
+
+%x -- to get hexadecimal address
+%p -- to get the complete address
+
+static -- makes the pointer global and solve dangling problem ---
+
+
+Storage Classes :
+
+									Scope							Lifetime
+
+
+
+*static									global							file
+
+*extern									global							multiple files inside same folder
+
+*auto									local							{    }
+
+*register								RAM							RAM
+
+
+
+BAKER'S PARTITION PROBLEM  and max regions using straight lines are the same:
+
+\
+
+
+RSB= rightmost set bit=xorall & -xorAll
+
