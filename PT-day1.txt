@@ -1,0 +1,203 @@
+Capgemini
+lg soft
+lumen tech
+
+history of all languages:
+C:
+Dennis Ritchie started with a language called A in 1940/42 then with B.
+1972-C language founded
+1989-First standard Version introduced
+
+
+ANSI-
+
+Data Types:
+
+C:
+
+THERE IS NO BOOLEAN DATA TYPE BY DEFAULT INT C LANGUAGE !!!!
+
+for using Boolean we need to use ------->   #include<stdbool.h>
+
+
+
+Primary                                   Void                         Enumeration-we use it when we need a named constant data type                          Derived
+
+Integer:
+Short->2B->128 to 127
+int->4B -> 2^31 to 2^31-1                                               Named constants - jan to dec,colors,mon to sunday                                      Arrays,strings,
+long->8B
+                                                                         by default -int
+
+Float:
+float->4B
+double->8B
+
+
+Char->1B
+
+#include<stdio.h>
+#include<Stdbool.h>
+enum BOOlEAN{
+True,False,X=10,Y,Z};
+
+int main(){
+bool status=true;
+enum BOOLEAN f= FALSE;
+Printf("%i",status);
+printf("%I", f);
+
+return 0;
+}
+
+%llu - llu
+
+
+C + _SIMULA_ = C++
+
+C - Compiled m,c,r,f
+C++ - printer new,delete
+
+JAVA -1995- james gosling- developed in sum micro system and then Oracle - smallest  unit of java is called beans
+PYTHON -1991-gudo van rossom
+
+both  JAVA and python are both compiled and interpreted
+
+WORA-Write once Run anywhere == Compiled and interpreted
+
+filename.class-bytecode, u get a symbolic  language
+
+
+
+jdk - u get java source files - it is platform dependent
+JRE- Java Runtime  Environment - it is platform independent
+
+
+JDK+JRE=JVM
+
+in JVM there is another compiler called jit- just in time compiler
+.class file is converted to native java by jit
+ 
+main  method in java is used to check if the main class is working - to check the sanity of code
+
+
+
+Data TYPES IN JAVA:
+
+Primitive- byte,short,int,long,float,double,char,boolean
+
+Wrapper Class-Byte,Short,Integer,Long,Float,Double,Character,Boolean
+
+java.util---> Collection Framework
+
+
+
+Primitive ===>> wrapper = boxing
+Wrapper ===>> primitive = unboxing
+
+
+Non-Primitive
+
+
+
+
+float f=2.5f/F; - because for all default decimal values in c,c++ and java is double
+
+classes should start with capital - **class Main -**pascal naming convention
+ main - camal naming convention - for methods it should be small letters
+
+
+Operators:
+ 
+ARithematic : +,-,/,*,%         **,//
+Assignment : =
+Logical :&& \\ !
+Relational :>,<,>=
+
+Ternary operator:  short hand if else operator:
+c and c++:(Condition)?true value: false value
+
+java:  String var = (d>y)? "d is greater than y" : "y is greater than d"
+
+Bitwise Operator
+
+
+
+PEDMAS - Parenthesis >exponents>decimal>Multiply>Add>Subtraction
+
+
+Bitwise Operator :
+&
+\
+^
+>>
+<<
+~
+
+
+>> the bits deceases as 0 are added to the front and vice versa for << as the 0's are added at the end
+
+
+Decision making -Looping -Branching -jumps:
+
+simple if
+if else
+if else ladder
+nested if
+switch case
+ternary operator
+
+normal switch:
+
+switch(day){
+        case 1:
+        System.out.println("Monday");
+        break;
+        case 2:
+        System.out.println("Tuesday");
+        break;
+        case 3:
+        System.out.println("Wednesday");
+        break;
+        case 4:
+        System.out.println("Thursday");
+        break;
+        case 5:
+        System.out.println("Friday");
+        break;
+
+
+
+Lambda expression/lambda switch case or enhanced switch case :
+
+switch (day){
+case 1->System.out.println("Monday");
+case 2->System.out.println("Tuesday");
+case 3->System.out.println("Wednesday");
+case 4->System.out.println("Thursday");
+case 5->System.out.println("Friday");
+}
+
+
+
+switch case in python ==== match case:
+
+
+sc=404
+match sc:
+ 	case 404:
+ 		print("Bad request!")
+ 
+ 	case 200:
+ 		print("Good request!")
+
+ 	case other:
+ 		print("Invalid request1")
+
+
+
+
+Looping Statements :
+
+for and while are entry control loops
+and  do while is an exit control loop
