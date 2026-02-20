@@ -44,3 +44,131 @@ BAKER'S PARTITION PROBLEM  and max regions using straight lines are the same:
 
 RSB= rightmost set bit=xorall & -xorAll
 
+
+
+
+
+
+paackage:
+
+It is a collection of similar classes and interfaces
+
+It is  actually a folder in our project or application
+
+In terms of IT industery, we call it package
+
+package === folder
+
+
+Industry Std for package :{TCS|ICICI|login|login.java}
+
+com.tcs.icici.login.login.java;
+
+
+jagged ARRAYS: 
+2D arrays with unequal colums in called a jacked array
+
+
+for (int []numbers: nums){
+for (int n :numbers){
+print(n);
+}
+}
+
+new - keyword in C++ is reserved for  Dynamic Memory allocation adn not for object creation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
